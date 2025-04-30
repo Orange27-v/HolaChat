@@ -1,26 +1,15 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+export default {
+  primary: "#FF5A5F", // Soft red (main accent color)
+  secondary: "#00A699", // Teal (secondary accent)
+  background: "#FFFFFF",
+  card: "#F8F8F8",
+  text: "#333333",
+  subtext: "#717171",
+  border: "#EEEEEE",
+  success: "#4CAF50",
+  error: "#FF3B30",
+  warning: "#FFCC00",
+  chatBubbleUser: "#007AFF", // iOS blue for user messages
+  chatBubbleBot: "#F0F0F0", // Light gray for bot messages
+  inputBackground: "#F5F5F5",
 };
